@@ -16,11 +16,16 @@ main {
     font-style:normal;
     background: black;
     color:white;
-    
+    border-radius: 25px;
     }
 
-header h1{
-    text-align: center;
+header{
+    background-color: white;
+    display: flex;
+}
+header img{
+    float: center;
+    border-radius: 25px;;
 }
 nav ul{
     padding: 0px;
