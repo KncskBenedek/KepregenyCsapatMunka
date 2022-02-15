@@ -27,7 +27,7 @@ header{
     display: flex;
 }
 header img{
-    float: center;
+    
     border-radius: 25px;;
 }
 nav ul{
