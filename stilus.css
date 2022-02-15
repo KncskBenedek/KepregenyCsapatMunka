@@ -1,1 +1,15 @@
 @charset "UTF-8";
+
+@font-face {
+    font-family: 'dk_sugary_pancakeregular';
+    src: url('font/dk_sugary_pancake-webfont.woff2') format('woff2'),
+         url('font/dk_sugary_pancake-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+footer {
+    font-family: 'dk_sugary_pancakeregular', Arial, sans-serif;
+    font-weight:normal;
+    font-style:normal;
+    }
