@@ -53,7 +53,18 @@ img {
 
 #poke{
     display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 #poke img{
     justify-content: space-between;
+    flex: 1 1 40%;
+}
+
+
+
+#poke img{
+    flex-direction: column;
+    
 }
