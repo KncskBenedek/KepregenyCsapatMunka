@@ -35,3 +35,9 @@ nav a {
 }
 
 
+#poke{
+    display: flex;
+}
+#poke img{
+    justify-content: space-between;
+}
