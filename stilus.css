@@ -16,7 +16,12 @@ main {
     font-style:normal;
     background: black;
     color:white;
+    
     }
+
+header h1{
+    text-align: center;
+}
 nav ul{
     padding: 0px;
     display: flex;
