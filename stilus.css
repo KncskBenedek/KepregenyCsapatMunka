@@ -9,13 +9,16 @@
 
 }
 
-
 main {
     font-family: 'dk_sugary_pancakeregular', Arial, sans-serif;
     font-weight:normal;
     font-style:normal;
     background: black;
     color:white;
+
+    padding:10px;
+    margin:auto;
+
     border-radius: 25px;
     }
 
@@ -38,7 +41,15 @@ nav a {
     text-decoration: none;
     color: white ;
 }
+img {
+    border-radius: 25px;
+    padding: 10px;
+}
 
+#norbus{
+    display: flex;
+    flex-direction: row;
+}
 
 #poke{
     display: flex;
