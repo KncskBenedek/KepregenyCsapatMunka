@@ -15,9 +15,8 @@ main {
     font-style:normal;
     background: black;
     color:white;
-
-    padding:10px;
     margin:auto;
+    max-width: 1000px;
 
     border-radius: 25px;
     }
@@ -41,7 +40,7 @@ nav a {
     text-decoration: none;
     color: white ;
 }
-img {
+#norbus img {
     border-radius: 25px;
     padding: 10px;
 }
@@ -49,6 +48,13 @@ img {
 #norbus{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+article {
+    
+    flex: 50%;
 }
 
 #poke{
